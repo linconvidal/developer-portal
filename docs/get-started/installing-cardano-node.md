@@ -7,7 +7,7 @@ image: /img/og/og-getstarted-installing-cardano-node.png
 ---
 :::important
 
-This document's current version is relevant for `cardano-node` release version [8.0.0](https://github.com/input-output-hk/cardano-node/releases/tag/8.0.0) (May-2023)
+This document's current version is relevant for `cardano-node` release version [8.1.2](https://github.com/input-output-hk/cardano-node/releases/tag/8.1.2) (Jul-2023)
 
 :::
 ### Overview
@@ -101,21 +101,21 @@ Once complete, you should have `ghc` and `cabal` installed to your system.
 You can check if `ghcup` has been installed correctly by typing `ghcup --version` into the terminal. You should see something similar to the following:
 
 ```
-The GHCup Haskell installer, version 0.1.19.2
+The GHCup Haskell installer, version 0.1.19.4
 ```
 
-`ghcup` will install the latest stable version of `ghc`. However, as of the time of writing this, [Input-Output](https://iohk.io) recommends using `ghc 8.10.7`. So, we will use `ghcup` to install and switch to the required version.
+`ghcup` will install the latest stable version of `ghc`. However, as of the time of writing this, [Input-Output](https://github.com/input-output-hk/cardano-node/releases/tag/8.1.2) recommends using `ghc 8.10.7`. So, we will use `ghcup` to install and switch to the required version.
 
 ```bash
 ghcup install ghc 8.10.7
 ghcup set ghc 8.10.7
 ```
 
-`ghcup` will install the latest stable version of `cabal`. However, as of the time of writing this, [Input-Output](https://iohk.io) recommends using `cabal 3.6.2.0`. So, we will use `ghcup` to install and switch to the required version.
+`ghcup` will install the latest stable version of `cabal`. However, as of the time of writing this, [Input-Output](https://github.com/input-output-hk/cardano-node/releases/tag/8.1.2) recommends using `cabal 3.8.1.0`. So, we will use `ghcup` to install and switch to the required version.
 
 ```bash
-ghcup install cabal 3.6.2.0
-ghcup set cabal 3.6.2.0
+ghcup install cabal 3.8.1.0
+ghcup set cabal 3.8.1.0
 ```
 
 
@@ -139,8 +139,8 @@ cabal --version
 You should see something like this:
 
 ```
-cabal-install version 3.6.2.0
-compiled using version 3.6.2.0 of the Cabal library
+cabal-install version 3.8.1.0
+compiled using version 3.8.1.0 of the Cabal library
 ```
 
 :::important
@@ -336,18 +336,18 @@ You can check if `ghcup` has been installed properly by typing `ghcup --version`
 The GHCup Haskell installer, version v0.1.17.4
 ```
 
-`ghcup` will install the latest stable version of `ghc`. However, as of the time writing this, [Input-Output](https://iohk.io) recommends using `ghc 8.10.7`. So, we will use `ghcup` to install and switch to the required version.
+`ghcup` will install the latest stable version of `ghc`. However, as of the time writing this, [Input-Output](https://github.com/input-output-hk/cardano-node/releases/tag/8.1.2) recommends using `ghc 8.10.7`. So, we will use `ghcup` to install and switch to the required version.
 
 ```bash
 ghcup install ghc 8.10.7
 ghcup set ghc 8.10.7
 ```
 
-`ghcup` will install the latest stable version of `cabal`. However, as of the time of writing this, [Input-Output](https://iohk.io) recommends using `cabal 3.6.2.0`. So, we will use `ghcup` to install and switch to the required version.
+`ghcup` will install the latest stable version of `cabal`. However, as of the time of writing this, [Input-Output](https://github.com/input-output-hk/cardano-node/releases/tag/8.1.2) recommends using `cabal 3.8.1.0`. So, we will use `ghcup` to install and switch to the required version.
 
 ```bash
-ghcup install cabal 3.6.2.0
-ghcup set cabal 3.6.2.0
+ghcup install cabal 3.8.1.0
+ghcup set cabal 3.8.1.0
 ```
 
 Finally, we check if we have the correct `ghc` and `cabal` versions installed.
@@ -370,8 +370,8 @@ cabal --version
 You should see something like this:
 
 ```
-cabal-install version 3.6.2.0
-compiled using version 3.6.2.0 of the Cabal library
+cabal-install version 3.8.1.0
+compiled using version 3.8.1.0 of the Cabal library
 ```
 
 :::important
